@@ -16,26 +16,26 @@ number = [0-9]*
 
 
 //keywords
-boolean {System.out.println("boolean");}
-break {System.out.println("break");}
-class {System.out.println("class");}
-double {System.out.println("double");}
-else {System.out.println("else");}
-extends {System.out.println("extends");}
-false {System.out.println("false");}
-for {System.out.println("for");}
-if {System.out.println("if");} 
-implements {System.out.println("implements");}
-int {System.out.println("int");}
-interface {System.out.println("interface");}
-newarray {System.out.println("newarray");}
-println {System.out.println("println");}
-readln {System.out.println("readln");}
-return {System.out.println("return");}
-string {System.out.println("string");}
-true {System.out.println("true");}
-void {System.out.println("void");}
-while {System.out.println("void");}
+boolean {System.out.print("boolean ");}
+break {System.out.print("break ");}
+class {System.out.print("class ");}
+double {System.out.print("double ");}
+else {System.out.print("else ");}
+extends {System.out.print("extends ");}
+false {System.out.print("false ");}
+for {System.out.print("for ");}
+if {System.out.print("if ");} 
+implements {System.out.print("implements ");}
+int {System.out.print("int ");}
+interface {System.out.print("interface ");}
+newarray {System.out.print("newarray ");}
+println {System.out.print("println ");}
+readln {System.out.print("readln ");}
+return {System.out.print("return ");}
+string {System.out.print("string ");}
+true {System.out.print("true ");}
+void {System.out.print("void ");}
+while {System.out.print("while ");}
 
 //When we find matching expression: do something
 {letter} {System.out.println("Found letter");}
